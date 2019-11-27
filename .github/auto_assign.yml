@@ -7,6 +7,7 @@ addAssignees: false
 # A list of reviewers to be added to pull requests (GitHub user name)
 reviewers:
   - ibrand
+  - schuyler1d
 
 # A number of reviewers added to the pull request
 # Set 0 to add all the reviewers (default: 0)
@@ -22,5 +23,5 @@ numberOfReviewers: 0
 # numberOfAssignees: 2
 
 # A list of keywords to be skipped the process that add reviewers if pull requests include it
-# skipKeywords:
-#   - wip
+ skipKeywords:
+   - wip
